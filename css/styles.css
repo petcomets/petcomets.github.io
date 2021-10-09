@@ -11572,3 +11572,21 @@ a.glow:hover, a.glow:focus
 	color: #fff;
 	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
 }
+
+
+.demo{
+
+    font-size: calc(1.475rem + 2.7vw);
+    font-weight: 3000;
+    line-height: 1.2;
+    text-align: center;
+
+  
+
+}
+
+@media (min-width: 1200px) {
+  .demo {
+    font-size: 4.5rem;
+  }
+}
