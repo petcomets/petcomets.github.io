@@ -3022,7 +3022,7 @@ textarea.form-control-lg {
 }
 .was-validated .input-group .form-control:invalid:focus, .input-group .form-control.is-invalid:focus,
 .was-validated .input-group .form-select:invalid:focus,
-.input-group .form-select.is-invalid:focus {
+.input-group .form-select.is-invalid:focus {  
   z-index: 3;
 }
 
@@ -11649,3 +11649,21 @@ a.glow:hover, a.glow:focus
   background: #55ACEE;
   color: white;
 }
+
+
+.button {
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 7px 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 7% !important
+}
+
+.button1 {background-color: rgb(255, 255, 255);} /* Green */
+.button2 {background-color:rgb(255, 255, 255);} /* Blue */
+.button3 {background-color:rgb(255, 255, 255);} /* Blue */
