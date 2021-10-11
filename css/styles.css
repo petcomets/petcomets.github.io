@@ -117,6 +117,7 @@ h1, .h1 {
   }
 }
 
+
 h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
 }
@@ -11625,5 +11626,26 @@ a.glow:hover, a.glow:focus
 
 .containerb:hover {
   background-color: black;
+  color: white;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+
+.fa-twitter {
+  background: #55ACEE;
   color: white;
 }
