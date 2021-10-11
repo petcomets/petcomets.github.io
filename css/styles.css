@@ -556,10 +556,11 @@ progress {
 
 
 .display-4h {
-  font-size: calc(1.475rem + 2.7vw);
+  font-size: calc(.675rem + 2.7vw);
   font-weight: 3000;
   line-height: 1.2;
   text-align: center;
+  padding-top : 15px ;
 }
 @media (min-width: 1200px) {
   .display-4 {
@@ -11589,4 +11590,40 @@ a.glow:hover, a.glow:focus
   .demo {
     font-size: 4.5rem;
   }
+}
+
+
+
+
+.containerb {
+ 
+  width: 100%;
+  max-width: 450px;
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  float: right ;
+  position: absolute;
+  
+}
+
+.containerb img {
+  width: 100%;
+  height: auto;
+}
+
+.containerb .btnb {
+ 
+ 
+  
+}
+
+.containerb:hover {
+  background-color: black;
+  color: white;
 }
